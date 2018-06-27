@@ -1,0 +1,15 @@
+{
+    "debug": false,
+	"logfile": "app.log",
+    "hostname": "",
+    "http": {
+        "enabled": true,
+        "listen": ":1988",
+        "backdoor": false
+    },
+    "socket": {
+        "enabled": true,
+        "ip": "",
+        "port": 1989
+    }
+}
