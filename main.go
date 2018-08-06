@@ -1,12 +1,10 @@
-package fabric
+package main
 
 import (
 	"flag"
 	"github.com/ChunmengYang/go-demo/g"
 	"github.com/ChunmengYang/go-demo/http"
-	"github.com/ChunmengYang/go-demo/socket"
-	"github.com/ChunmengYang/go-demo/rpc"
-)
+		)
 
 func main()  {
 	cfg := flag.String("c", "cfg.json", "configuration file")
@@ -18,9 +16,9 @@ func main()  {
 
 	go http.Start()
 
-	go socket.Start()
+	//go socket.Start()
 
-	go rpc.Start()
+	//go rpc.Start()
 
 	select {}
 }
