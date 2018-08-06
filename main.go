@@ -2,10 +2,10 @@ package fabric
 
 import (
 	"flag"
-	"go-demo/g"
-	"go-demo/http"
-	"go-demo/socket"
-	"go-demo/rpc"
+	"github.com/ChunmengYang/go-demo/g"
+	"github.com/ChunmengYang/go-demo/http"
+	"github.com/ChunmengYang/go-demo/socket"
+	"github.com/ChunmengYang/go-demo/rpc"
 )
 
 func main()  {

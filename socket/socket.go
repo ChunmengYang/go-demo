@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 	"fmt"
-	"go-demo/g"
+	"github.com/ChunmengYang/go-demo/g"
 )
 
 func Start() {

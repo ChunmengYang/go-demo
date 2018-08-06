@@ -3,7 +3,7 @@ package http
 import (
 	"net/http"
 	"encoding/json"
-	"go-demo/g"
+	"github.com/ChunmengYang/go-demo/g"
 	"time"
 	//_ "net/http/pprof" //ip:port//debug/pprof/
 	//_ "github.com/mkevac/debugcharts"  //ip:port/debug/charts/
